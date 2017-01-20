@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <group >
+        <item android:title="A"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_android_black_24dp"
+            android:id="@+id/id_a" />
+        <item android:title="B"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:id="@+id/id_b" />
+    </group>
+</menu>

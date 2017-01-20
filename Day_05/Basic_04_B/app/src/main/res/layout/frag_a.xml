@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="whitedirewolves.basic_04_b.Frag_A">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:text="@string/radio_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_radio_a"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:text="@string/radio_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_radio_b"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_radio_c"
+                android:layout_weight="1"
+                android:text="@string/radio_03" />
+
+        </RadioGroup>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_android_black_24dp"
+            android:id="@+id/id_but_img"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</FrameLayout>

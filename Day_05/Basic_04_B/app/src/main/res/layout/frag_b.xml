@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="whitedirewolves.basic_04_b.Frag_B">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/ic_account_box_black_24dp"
+        android:id="@+id/id_img_view" />
+
+</FrameLayout>
